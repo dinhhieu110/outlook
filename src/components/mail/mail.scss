@@ -1,0 +1,29 @@
+.mailContainer {
+  padding: 20px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .mailTitle {
+      display: flex;
+      justify-content: space-between;
+      .time {
+        font-weight: 400;
+      }
+    }
+    .content {
+      font-weight: 350;
+    }
+  }
+}

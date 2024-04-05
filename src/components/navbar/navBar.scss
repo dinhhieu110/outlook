@@ -1,0 +1,96 @@
+.navContainer {
+  position: fixed;
+  background-color: #4d5966;
+  display: flex;
+  padding: 0 5px 0px 10px;
+  height: 48px;
+  width: 100%;
+  .left {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    .btn {
+      .appIcon {
+        color: #f3dcdc;
+      }
+    }
+    .logo {
+      width: 180px;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .search {
+      span {
+        font-weight: 600;
+      }
+      display: flex;
+      align-items: center;
+      margin-left: 14px;
+      gap: 12px;
+      .searchBox {
+        display: flex;
+        align-items: center;
+        color: #4d5966;
+        background-color: #fff;
+        width: 350px;
+        height: 32px;
+        border-radius: 5px;
+        padding: 8px;
+        font-weight: 500;
+
+        .searchIcon {
+          font-size: 20px;
+        }
+        input {
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+.right {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .listItems {
+    list-style-type: none;
+    height: 100%;
+    gap: 6px;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    :hover {
+      background-color: #a81a0d;
+      cursor: pointer;
+    }
+    li.item {
+      padding: 10px;
+      height: 100%;
+    }
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      height: 100%;
+      .iconItem {
+        width: 20px;
+        height: 20px;
+      }
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}

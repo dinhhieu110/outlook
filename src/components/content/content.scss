@@ -1,0 +1,91 @@
+.contentContainer {
+  flex: 5.4;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .emailTitle {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(140, 127, 127, 0.2),
+      0 6px 20px 0 rgba(126, 116, 116, 0.19);
+    .name {
+      font-weight: 600;
+    }
+  }
+  .box {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: #fff;
+    width: 100%;
+    .avatar {
+      flex: 0.5;
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+    .smallBox {
+      flex: 9.5;
+      display: flex;
+      flex-direction: column;
+      .platformAndFunction {
+        display: flex;
+        justify-content: space-between;
+        .iconsList {
+          display: flex;
+          list-style-type: none;
+          gap: 10px;
+          li {
+            padding: 4px;
+          }
+          :hover {
+            cursor: pointer;
+            background-color: #e9d9d9;
+          }
+          .redColor {
+            color: rgb(114, 30, 30);
+          }
+          .blueColor {
+            color: rgb(77, 77, 118);
+          }
+        }
+      }
+      .receiverAndDate {
+        display: flex;
+        justify-content: space-between;
+        .date {
+          font-weight: 350;
+          font-size: 13px;
+        }
+      }
+      .content {
+        margin: 30px 0;
+        line-height: 2;
+        .mainContent {
+          line-height: 2.5;
+        }
+        .gitNote {
+          margin: 20px 0;
+        }
+      }
+      .btns {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .btn {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          border: 1px solid #b4a1a1;
+          border-radius: 4px;
+          padding: 4px 12px;
+          .icon {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+}
