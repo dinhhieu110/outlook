@@ -45,7 +45,7 @@ export const Content = () => {
               error, you can remove it under GPG Keys
             </p>
             <p className="gitNote">
-              <a href="https://outlook.office.com/mail/safelink.html?url=https://git.avepoint.net/Willson.Tran&corid=558b38e6-9504-b464-f03d-4e79eea0dda5">
+              <a href="https://outlook.office.com/mail/safelink.html">
                 View it on GitLab
               </a>
               <p>You're receiving this email because of your account on</p>
